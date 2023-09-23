@@ -1,7 +1,8 @@
 ---
 import { Icon } from 'astro-icon'
 
-const { src = '/astronaut-hero-img.webp' } = Astro.props
+const { src = '/ideogram.jpg' } = Astro.props
+import video from '../assets/img/video.mp4'
 ---
 
 <section class="hero my-24">
@@ -11,21 +12,8 @@ const { src = '/astronaut-hero-img.webp' } = Astro.props
         <h1 class="text-center text-6xl md:text-left lg:text-8xl">
           <slot><span class="text-gradient">EpicWarzone</span> Batalla Infinita</slot>
         </h1>
-        <div class="flex flex-col gap-3 min-[500px]:flex-row">
-          <a class="button has-icon" href="https://github.com/markteekman/accessible-astro-starter">
-            <Icon pack="ion" name="star-outline" />
-            Star on GitHub
-          </a>
-          <a
-            class="button has-icon color-secondary"
-            href="https://github.com/markteekman/accessible-astro-starter/blob/main/README.md"
-          >
-            <Icon pack="ion" name="bookmark-outline" />
-            Read the Docs
-          </a>
-        </div>
+        <source src={video} type="video/mp4" />
       </div>
-      <img class="hidden lg:block" src={src} alt="" decoding="async" />
     </div>
   </div>
 </section>

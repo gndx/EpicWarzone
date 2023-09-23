@@ -1,8 +1,8 @@
-# Accessible Astro Starter
+# EpicWarzone Starter
 
 ![social-preview-image](https://user-images.githubusercontent.com/3909046/219942674-9894853e-def8-4180-84b8-6b577dacfcaa.png)
 
-Accessible Astro Starter is a ready to use, SEO and a11y friendly blogging theme. It contains plenty of accessible components to build several page types, Tailwind CSS to help you build faster and example pages such as a dynamic Blog, 404, Markdown and MDX. This theme is designed to help you build your project faster and provide a solid base for accessibility!
+EpicWarzone Starter is a ready to use, SEO and a11y friendly blogging theme. It contains plenty of accessible components to build several page types, Tailwind CSS to help you build faster and example pages such as a dynamic Blog, 404, Markdown and MDX. This theme is designed to help you build your project faster and provide a solid base for accessibility!
 
 🚀 [Live Preview](https://accessible-astro.netlify.app/)
 
@@ -42,10 +42,10 @@ Clone this theme locally and run any of the following commands in your terminal:
 | `npm run build`   | Build your production site to `./dist/`      |
 | `npm run preview` | Preview your build locally, before deploying |
 
-## 📦 Other Accessible Astro projects
+## 📦 Other EpicWarzone projects
 
-- [Accessible Astro Dashboard](https://github.com/markteekman/accessible-astro-dashboard/)
-- [Accessible Astro Components](https://github.com/markteekman/accessible-astro-components/)
+- [EpicWarzone Dashboard](https://github.com/markteekman/accessible-astro-dashboard/)
+- [EpicWarzone Components](https://github.com/markteekman/accessible-astro-components/)
 
 ## ❤️ Helping out
 
